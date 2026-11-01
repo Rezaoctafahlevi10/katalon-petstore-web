@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_Search_Product_Data_Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97fa110f-fa24-4038-aa1f-4dd94e56015f</testCaseGuid>
+</TestCaseEntity>

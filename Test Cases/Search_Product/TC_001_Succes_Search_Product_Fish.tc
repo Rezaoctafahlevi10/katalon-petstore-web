@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001_Succes_Search_Product_Fish</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90ba2620-5b99-4c2a-a5da-0857d9dd51b2</testCaseGuid>
+</TestCaseEntity>
