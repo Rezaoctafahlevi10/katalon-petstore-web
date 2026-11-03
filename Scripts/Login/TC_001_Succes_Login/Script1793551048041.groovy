@@ -33,7 +33,7 @@ try {
 	Class.forName("com.mysql.cj.jdbc.Driver")
 	conn = DriverManager.getConnection(jdbcUrl, dbUser, dbPassword)
 	stmt = conn.createStatement()
-	rs = stmt.executeQuery("SELECT username, password FROM Users WHERE test_case_id = 'TC_JPS_001'")
+	rs = stmt.executeQuery("SELECT username, password FROM Users WHERE test_case_id = 'TC_JPS_001")
 	
 	if (rs.next()) {
 		GlobalVariable.Username = rs.getString("username")
@@ -63,7 +63,7 @@ WebUI.setText(field_password, GlobalVariable.Password)
 WebUI.click(btn_signon)
 
 def btn_sign_out= findTestObject('Object Repository/Login/btn_Sign_Out')
-WebUI.waitForElementPresent(btn_signon, delay_time)
+WebUI.waitForElementPresent(btn_sign_out, delay_time)
 WebUI.verifyElementPresent(btn_sign_out, delay_time)
 WebUI.click(btn_sign_out)
 WebUI.closeBrowser()

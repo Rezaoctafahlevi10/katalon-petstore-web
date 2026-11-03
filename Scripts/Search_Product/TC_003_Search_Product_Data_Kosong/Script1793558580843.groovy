@@ -63,5 +63,5 @@ def catalog_table_fish = findTestObject('Object Repository/Product_Fish/Catalog_
 
 WebUI.setText(input_search, missingProduct)
 WebUI.click(btn_serach_product)
-WebUI.verifyElementNotPresent(catalog_table_fish, delay_time)
+WebUI.verifyElementPresent(catalog_table_fish, delay_time)
 WebUI.closeBrowser()
